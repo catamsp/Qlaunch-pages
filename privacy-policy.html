@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Qlaunch</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000; color: #ccc;
+            line-height: 1.7; padding: 2rem 1rem;
+        }
+        .container { max-width: 640px; margin: 0 auto; }
+        a { color: #fff; }
+        h1 { font-size: 1.8rem; color: #fff; font-weight: 600; margin-bottom: 0.25rem; }
+        .updated { color: #555; font-size: 0.85rem; margin-bottom: 2.5rem; }
+        h2 {
+            font-size: 1.1rem; color: #fff; font-weight: 500;
+            margin: 2rem 0 0.75rem; padding-top: 1.5rem;
+            border-top: 1px solid #1a1a1a;
+        }
+        h2:first-of-type { border-top: none; margin-top: 0; }
+        p { margin-bottom: 1rem; font-size: 0.92rem; }
+        ul { margin: 0.5rem 0 1rem 1.2rem; font-size: 0.92rem; }
+        li { margin-bottom: 0.4rem; }
+        .back { color: #555; text-decoration: none; font-size: 0.85rem; }
+        .back:hover { color: #fff; }
+        .footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #1a1a1a; color: #444; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="back" href="index.html">&larr; Back to Qlaunch</a>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Effective Date: July 10, 2026</p>
+
+        <h2>1. Introduction</h2>
+        <p>Qlaunch ("the App") is developed by <strong>CapsD</strong> ("we", "us", "our"). This Privacy Policy explains how the App works, what data it accesses, and your rights. Qlaunch is a productivity tool that enhances your Android launcher by auto-focusing the keyboard and auto-opening search results.</p>
+        <p>By using Qlaunch, you agree to the practices described in this policy.</p>
+
+        <h2>2. Accessibility Service</h2>
+        <p>Qlaunch uses the Android Accessibility Service to provide its core functionality:</p>
+        <ul>
+            <li><strong>Auto-Focus Keyboard:</strong> Detects when the app drawer opens and automatically focuses the search bar.</li>
+            <li><strong>Auto-Open Single Result:</strong> Detects when a single app matches your search and opens it automatically.</li>
+        </ul>
+        <p>The Accessibility Service accesses <strong>only the launcher's UI elements</strong> (search bar, app list) to detect app drawer state. It does <strong>not</strong>:</p>
+        <ul>
+            <li>Read your screen content, messages, or notifications</li>
+            <li>Record, monitor, or transmit any data</li>
+            <li>Perform actions outside of the launcher</li>
+            <li>Access any personal information</li>
+        </ul>
+        <p>The Accessibility Service data stays entirely on your device and is never transmitted to us or any third party.</p>
+
+        <h2>3. Data Collection</h2>
+        <p>Qlaunch does <strong>not collect any personal data</strong>. There is:</p>
+        <ul>
+            <li>No account creation or registration</li>
+            <li>No login required</li>
+            <li>No personal information collected (name, email, phone, location)</li>
+            <li>No usage analytics sent to our servers</li>
+            <li>No server-side data storage</li>
+        </ul>
+        <p>All app preferences and settings are stored <strong>locally on your device</strong> using Android DataStore and are never transmitted anywhere.</p>
+
+        <h2>4. Third-Party SDKs</h2>
+        <p>Qlaunch integrates the following Google SDKs:</p>
+        <ul>
+            <li><strong>Google AdMob</strong> — Serves advertisements</li>
+            <li><strong>Google Play Billing</strong> — Processes in-app purchases</li>
+            <li><strong>Google Play Integrity</strong> — Verifies app integrity and device security</li>
+        </ul>
+        <p>Each SDK operates under Google's own privacy policy. We do not control the data collected by these SDKs.</p>
+
+        <h2>5. Advertising (AdMob)</h2>
+        <p>Qlaunch displays advertisements using Google AdMob. AdMob may collect and use the following data to serve personalized ads:</p>
+        <ul>
+            <li>Device identifiers (Advertising ID)</li>
+            <li>Device type and model</li>
+            <li>Operating system version</li>
+            <li>Network information</li>
+            <li>Ad interaction data (impressions, clicks)</li>
+        </ul>
+        <p>You can opt out of personalized advertising by:</p>
+        <ul>
+            <li>Going to <strong>Settings &rarr; Google &rarr; Ads</strong> on your device and enabling "Opt out of Ads Personalization"</li>
+            <li>Visiting <a href="https://adssettings.google.com" target="_blank">Google Ads Settings</a></li>
+        </ul>
+        <p>Even with personalized ads disabled, you will still see ads, but they will not be tailored to your interests.</p>
+
+        <h2>6. In-App Purchases (Google Play Billing)</h2>
+        <p>Qlaunch offers a "Lifetime Pro" in-app purchase. All purchase transactions are processed entirely by Google Play Billing. We do <strong>not</strong>:</p>
+        <ul>
+            <li>Store your credit card or payment information</li>
+            <li>Have access to your payment details</li>
+            <li>Process payments on our own servers</li>
+        </ul>
+        <p>Purchase history is managed by your Google Play account and is subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+
+        <h2>7. Device Integrity (Play Integrity)</h2>
+        <p>Qlaunch uses the Google Play Integrity API to verify that the app has not been tampered with. This check communicates with Google's servers to confirm the app's integrity. The Play Integrity API is operated entirely by Google and is subject to Google's privacy policy.</p>
+
+        <h2>8. Local Data Storage</h2>
+        <p>Qlaunch stores the following data locally on your device using Android DataStore (encrypted preferences):</p>
+        <ul>
+            <li>App settings (auto-focus, auto-open, theme, delays)</li>
+            <li>Pro status (trial start time, reward expiry, lifetime purchase status)</li>
+            <li>Master switch state</li>
+        </ul>
+        <p>This data:</p>
+        <ul>
+            <li>Is stored <strong>only on your device</strong></li>
+            <li>Is <strong>never transmitted</strong> to any server</li>
+            <li>Is <strong>deleted automatically</strong> when you uninstall the App</li>
+            <li>Is <strong>not accessible</strong> to us or any third party</li>
+        </ul>
+
+        <h2>9. Data Sharing</h2>
+        <p>We do <strong>not</strong> sell, trade, or share your data with anyone. The only data transmission that occurs is:</p>
+        <ul>
+            <li>AdMob SDK communicating with Google's ad servers (for ad serving)</li>
+            <li>Play Integrity API communicating with Google's servers (for integrity verification)</li>
+            <li>Play Billing communicating with Google Play (for purchase processing)</li>
+        </ul>
+        <p>All of these are handled by Google and are subject to Google's privacy policy.</p>
+
+        <h2>10. Children's Privacy</h2>
+        <p>Qlaunch is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided personal information through the App, please contact us.</p>
+
+        <h2>11. Security</h2>
+        <p>We take reasonable measures to protect the App. Since Qlaunch does not collect or store personal data on external servers, there is minimal risk of data breach. The app uses R8 code obfuscation and Play Integrity verification to prevent tampering.</p>
+
+        <h2>12. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be reflected on this page with an updated effective date. We encourage you to review this policy periodically.</p>
+
+        <h2>13. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:catamilselvan2001@gmail.com">catamilselvan2001@gmail.com</a></p>
+
+        <div class="footer">
+            <p>&copy; 2026 CapsD. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
