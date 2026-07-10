@@ -21,10 +21,14 @@
         .icon {
             width: 80px; height: 80px;
             border-radius: 20px;
-            background: linear-gradient(135deg, #fff 0%, #ccc 100%);
+            background: #000;
+            border: 1px solid #333;
             margin: 0 auto 2rem;
             display: flex; align-items: center; justify-content: center;
-            font-size: 2rem;
+            overflow: hidden;
+        }
+        .icon img {
+            width: 100%; height: 100%; object-fit: contain;
         }
         h1 { font-size: 2rem; font-weight: 600; margin-bottom: 0.5rem; }
         .tagline { color: #888; font-size: 1.1rem; margin-bottom: 2rem; }
@@ -67,7 +71,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="icon">&#9889;</div>
+        <div class="icon">
+            <img src="ic_launcher_foreground.png" alt="Qlaunch">
+        </div>
         <h1>Qlaunch</h1>
         <p class="tagline">Auto-focus keyboard &amp; auto-open apps instantly</p>
 
